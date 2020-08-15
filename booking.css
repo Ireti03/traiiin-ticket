@@ -1,0 +1,168 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+    
+    }
+
+ 
+    body {
+        background: #054A29;
+        text-align: center;
+    }
+
+    .radio-group {
+        display: flex;
+    margin-bottom:10px;
+    
+    justify-content: space-between;
+    }
+    
+    
+    .radio {
+        
+        
+        font-size: 14px;
+        
+        margin-top: 15px;
+        color: #054A29;
+        font-weight: bold;
+    }
+    
+    .radio input {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        cursor: pointer;
+        outline: none;
+    }
+    .radio label {
+        width: 50%;
+    }
+
+    #title {
+        margin: auto;
+        color: #fff;
+        padding: 10px 0px 10px 0px;
+        text-align: center;
+        border-radius: 15px 15px 0px 0px;
+    }
+
+    .main {
+        background-color: #054A29;
+        margin: auto;
+        padding: 0px 16px;
+    }
+
+
+
+p {
+    margin-bottom: 25px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #054A29;
+    text-align: center;
+}
+
+
+
+
+.booking-form  {
+    background-color: #5BBA6F;
+    max-width: 500px;
+    margin: 40px auto;
+    border-radius: 20px;
+    padding: 50px 30px;
+text-align: left;
+margin-bottom: 20px;
+font-size: 12px;
+}
+
+.booking-form label {
+    margin: 5px 10px 5px 0;
+display: block;
+font-weight: bold;
+color: #054A29;
+
+}
+
+.booking-form input {
+    vertical-align: middle;
+    margin-bottom: 6px;
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    border: 2px solid #dddddd;
+}
+
+.booking-form input:focus {
+border-color: #054A29;
+}
+
+.booking-form select {
+    vertical-align: middle;
+    margin-bottom: 6px;
+width: 100%;
+padding: 10px;
+background-color: #fff;
+    border: 2px solid #dddddd;
+height: 41px;
+}
+
+.booking-form select:focus {
+border-color: #054A29;
+}
+
+.form-group {
+
+    width: 23%;
+}
+
+.form-action {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-control {
+    margin: 4px 0px;
+}
+
+
+
+button {
+    background-color: #054A29;
+    padding: 10px;
+    text-align: center;
+    margin-top: 25px;
+    border-radius: 25px;
+    width: 100%;
+    border: 1px solid #054A29;
+
+}
+
+button a {
+    color: #fff;
+    letter-spacing: 2px;
+    display: block;
+
+}
+
+
+.half {
+    width: 49%;
+}
+@media screen and (max-width: 480px) {
+    body {
+        width: 100%; 
+    }
+    .form-group {width: 48%;}
+}
+
+

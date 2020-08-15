@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+
+}
+
+
+body {
+    background: #054A29;
+    text-align: center;
+}
+
+#title {
+   
+    margin: auto;
+    color: #fff;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+    ;
+}
+
+
+.radio-group {
+    display: flex;
+margin-bottom:10px;
+
+justify-content: space-between;
+}
+
+
+.radio {
+    display: inline-block;
+    
+    font-size: 14px;
+    
+    margin-top: 15px;
+    color: #054A29;
+    font-weight: bold;
+}
+
+.radio input {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+}
+
+p {
+    margin-bottom: 25px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #054A29;
+    text-align: center;
+}
+
+
+
+
+.plan-form {
+    background-color: #5BBA6F;
+    max-width: 500px;
+    margin: 40px auto;
+    border-radius: 20px;
+    padding: 50px 30px;
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.plan-form .form-control label {
+    margin: 5px 10px 5px 0px;
+    margin: 5px 10px 5px 0px;
+    display: block;
+    font-weight: bold;
+    color: #054A29;
+
+}
+
+.plan-form .form-control input {
+    vertical-align: middle;
+    margin: 15px 15px 15px 15px;
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    border: 2px solid #dddddd;
+}
+
+.plan-form input:focus {
+    border-color: #054A29;
+}
+
+.plan-form select {
+    vertical-align: middle;
+    margin-bottom: 6px;
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    border: 2px solid #dddddd;
+    height: 41px;
+}
+
+.plan-form select:focus {
+    border-color: #054A29;
+}
+.form-action {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.form-group {
+    display: inline-block;
+    width: 49%;
+}
+
+.form-group .journey-date {
+    margin: 5px 10px 5px 0;
+    display: block;
+    font-weight: bold;
+    color: #054A29;
+}
+
+.form-group .Journey-time {
+    margin: 5px 10px 5px 0;
+    display: block;
+    font-weight: bold;
+    color: #054A29;
+}
+
+
+.form-group input {
+    vertical-align: middle;
+    margin-bottom: 6px;
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    border: 2px solid #dddddd;
+    height: 41px;
+}
+
+.form-group .journey-time {
+    display: block;
+    
+}
+
+button {
+    background-color: #054A29;
+    padding: 10px;
+    text-align: center;
+    margin-top: 25px;
+    border-radius: 25px;
+    width: 100%;
+    border: 1px solid #054A29;
+
+}
+
+button a {
+    color: #fff;
+    letter-spacing: 2px;
+    display: block;
+
+}
+
+
+@media screen and (max-width: 480px) {
+    body {
+        width: 100%; 
+    }
+    .radio-group {position: absolute;}
+}

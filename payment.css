@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+outline: none;
+text-decoration: none;
+font-family: 'Merriweather', serif;
+
+}
+
+body{
+    background: #054A29;
+    text-align: center;
+}
+
+#title {
+
+    margin: auto;
+    color: #fff;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+}
+
+
+
+
+.checkout .checkout-wrapper .checkout-form {
+    width: 100%;
+    background: #5BBA6F;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 50px 30px;
+}
+
+.checkout .checkout-wrapper .checkout-form p {
+    margin-bottom: 25px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #054A29;
+    text-align: center;
+}
+
+.checkout .checkout-wrapper .checkout-form .section {
+    margin-bottom: 15px;
+}
+
+.checkout .checkout-wrapper .checkout-form .section input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid  #dddddd;
+}
+
+.checkout .checkout-wrapper .checkout-form .section input[type="text"]:focus {
+    border-color: #054A29;
+}
+
+.checkout .checkout-wrapper .checkout-form .section.last-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout .checkout-wrapper .checkout-form .section.last-section .item {
+    width: 48%;
+}
+
+.checkout .checkout-wrapper .checkout-form .btn {
+   background: #054A29;
+    padding: 10px;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.checkout .checkout-wrapper .checkout-form .btn a{
+color: #dddddd;
+letter-spacing: 2px;
+display: block;
+}
+
+
+@media screen and (max-width: 480px) {
+    body {
+        width: 100%; 
+    }
+}
+
+

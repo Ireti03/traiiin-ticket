@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan Your Trip</title>
+    <link rel="stylesheet" href="booking.css" media="screen" />
+
+</head>
+
+
+
+<body>
+    <div class="main">
+        <h1 id="title">
+            Railway Nigeria
+        </h1>
+
+        <form class="booking-form">
+            <p id="small-text">Plan Your Trip</p>
+
+            <div class="booking">
+                <div class="radio-group">
+                    <label class="radio"><input type="radio" name="trip" id="way-label" value="One-way">One-way
+                        (&#8358;5000)
+                        <span></span>
+                    </label>
+                    <label class="radio"><input type="radio" name="trip" id="round-label" value="round-trip">Round-trip
+                        (&#8358;8000)
+                        <span></span>
+                    </label>
+                </div>
+            </div>
+
+
+
+            <div class="form-control">
+                <label for="From">From</label>
+                <select name="from" required>
+                    <option value="" disabled selected>Select a city</option>
+                    <option value="Abuja (ABV)">Abuja (ABV)</option>
+                    <option value="Lagos (LOS)">Lagos (LOS)</option>
+                    <option value="Akure (AKR)">Akure (AKR)</option>
+                    <option value="Calabar (CBR)">Calabar (CBR)</option>
+                    <option value="Benin (BNI)">Benin (BNI)</option>
+                    <option value="Enugu (ENU)">Enugu (ENU)</option>
+
+                </select>
+            </div>
+
+            <div class="form-control">
+                <label for="To">To</label>
+                <select name="To" required>
+                    <option value="" disabled selected>Select a destination city</option>
+                    <option value="Abuja (ABV)">Abuja (ABV)</option>
+                    <option value="Lagos (LOS)">Lagos (LOS)</option>
+                    <option value="Akure (AKR)">Akure (AKR)</option>
+                    <option value="Calabar (CBR)">Calabar (CBR)</option>
+                    <option value="Benin (BNI)">Benin (BNI)</option>
+                    <option value="Enugu (ENU)">Enugu (ENU)</option>
+
+                </select>
+            </div>
+
+
+            <div class="form-control">
+                <label for="class">Class</label>
+                <select name="class" required>
+                    <option value="" disabled selected>How will you be traveling?</option>
+                    <option value="Economy">Economy</option>
+                    <option value="Business (Additional &#8358;3000)">Business (Additional &#8358;3000)</option>
+                    <option value="Sleeper (Additional &#8358;5000)">Sleeper (Additional &#8358;5000)</option>
+                    <option value="Prestige (Additional &#8358;8000)">Prestige (Additional &#8358;8000)</option>
+
+                </select>
+            </div>
+
+            <div class="form-action">
+
+                <div class="form-group half">
+                    <label class="journey-date">Journey date</label>
+                    <input type="date" id="journey-date" name="journey-date" required>
+
+                </div>
+
+                <div class="form-group half">
+                    <div class="journey-time">
+                        <label class="Journey-time">Journey time</label>
+                        <select name="journey-time" id="journey-time">
+                            <option value="9:00AM">9:00AM</option>
+                            <option value="12:00PM">12:00PM</option>
+                            <option value="3:00PM">3:00PM</option>
+                            <option value="6:00PM">6:00PM</option>
+                            <option value="9:00PM">9:00PM</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+    
+
+    <button type="submit" value="Go to payment &rarr;" class="btn">
+        <a href="payment.html">Go to payment &rarr;</a>
+    </button>
+</div>
+    </div>
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    </div>
+</body>
+
+
+</html>
