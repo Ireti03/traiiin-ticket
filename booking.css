@@ -36,7 +36,7 @@
     }
     
     .radio input {
-        width: 20px;
+        width: 20px !important;
         height: 20px;
         border-radius: 50%;
         cursor: pointer;
@@ -96,6 +96,7 @@ color: #054A29;
     vertical-align: middle;
     margin-bottom: 6px;
     width: 100%;
+    height: 40px;
     padding: 10px;
     background-color: #fff;
     border: 2px solid #dddddd;
@@ -112,7 +113,7 @@ width: 100%;
 padding: 10px;
 background-color: #fff;
     border: 2px solid #dddddd;
-height: 41px;
+height: 40px;
 }
 
 .booking-form select:focus {
@@ -155,6 +156,8 @@ button a {
 }
 
 
+
+
 .half {
     width: 49%;
 }
@@ -164,3 +167,12 @@ button a {
     }
     .form-group {width: 48%;}
 }
+
+.a {
+    color: #054A29;
+    display: block;
+text-align: center;
+margin: 14px 0;
+
+}
+
